@@ -3,24 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Три отсека</title>
+    <title>Поисковая страница</title>
     <style>
         body {
             display: flex;
             justify-content: space-between;
-            height: 100vh;
             margin: 0;
+            padding: 20px;
         }
-        iframe {
-            width: 32%;
-            border: 1px solid #000;
-            height: 100%;
+        .column {
+            flex: 1; /* Каждая колонка занимает равную ширину */
+            margin: 0 10px; /* Отступы между колонками */
+            padding: 10px;
+            border: 1px solid #ccc; /* Граница вокруг колонки */
         }
     </style>
 </head>
 <body>
-    <iframe src="https://mail.yandex.ru"></iframe>
-    <iframe src="https://vk.mail.ru/"></iframe>
-    <iframe src="https://mail.google.com/mail/u/1/?pli=1#inbox"></iframe>
+
+    <div class="column">
+        <div class="gcse-search" data-cse-path="d69be6ccf83dd4ffc"></div>
+    </div>
+
+    <div class="column">
+        <div class="gcse-search" data-cse-path="d69be6ccf83dd4ffc"></div>
+    </div>
+
+    <div class="column">
+        <div class="gcse-search" data-cse-path="d69be6ccf83dd4ffc"></div>
+    </div>
+
+    <script async src="https://cse.google.com/cse.js?cx=d69be6ccf83dd4ffc"></script>
+    <script async src="https://cse.google.com/cse.js?cx=d69be6ccf83dd4ffc"></script>
+    <script async src="https://cse.google.com/cse.js?cx=d69be6ccf83dd4ffc"></script>
+
 </body>
 </html>
